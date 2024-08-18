@@ -1,0 +1,90 @@
+.logo{
+    background: url("../img/logo.png");
+    width :250;
+    height : 250;
+}
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6, .text-heading {
+  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+}
+.img-logo
+{
+	
+ border:2;
+ width : 250px;
+ height : 100px;
+ margin : 0;
+ padding : 0;
+
+	
+	
+}
+
+
+.logo
+{
+	background: no-repeat;
+	
+}
+
+.tagline-upper {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.tagline-lower {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.text-expanded {
+  letter-spacing: 2px;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.text-lg {
+  font-size: 1.25rem;
+}
+
+.bg-faded {
+  background-color: rgba(82, 82, 99);
+  
+}
+
+#footer
+{
+	margin-top: 35px;
+	
+}
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+hr.divider {
+  border-color: #292b2c;
+  max-width: 200px;
+}
+
+.map-container iframe {
+  pointer-events: none;
+}
+
+.map-container iframe.clicked {
+  pointer-events: auto;
+}
